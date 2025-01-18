@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #353941 ;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.passGenerator{
+  background-color: coral;
+  width: 30rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border: 3px solid #fff;
+  text-align: center;
+}
+.passGenerator h2{
+  color: #212121;
+  margin-top: 10px;
+}
+.show-pass{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.show-pass .pass{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #0A0A0A;
+  background-color: #fff;
+  padding: 2px;
+  text-align: center;
+}
+.show-pass button{
+  background-color: #0A0A0A;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.show-pass button:active{
+  transform: scale(0.9);
+}
+p{
+  text-align: left;
+  margin-left: 2rem;
+  color: #0A0A0A;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: 0;
+}
+.upper , .lower , .number , .symbol{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0  2rem;
+}
+.upper label{
+  font-size: 1.2rem;
+  color: #212121;
+  font-weight: 700;
+  cursor: pointer;
+}
+.upper input{
+  border: none;
+  width: 1.2rem;
+  border-radius: 5px;
+  color: #0A0A0A;
+}
+
+.lower label{
+  font-size: 1.2rem;
+  color: #212121;
+  font-weight: 700;
+  cursor: pointer;
+}
+.lower input{
+  border: none;
+  width: 1.2rem;
+  border-radius: 5px;
+  color: #0A0A0A;
+}
+
+.number label{
+  font-size: 1.2rem;
+  color: #212121;
+  font-weight: 700;
+  cursor: pointer;
+}
+.number input{
+  border: none;
+  width: 1.2rem;
+  border-radius: 5px;
+  color: #0A0A0A;
+}
+
+.symbol label{
+  font-size: 1.2rem;
+  color: #212121;
+  font-weight: 600;
+  cursor: pointer;
+}
+.symbol input{
+  border: none;
+  width: 1.2rem;
+  border-radius: 5px;
+  color: #0A0A0A;
+}
+.Btn{
+  margin: 2rem 0;
+  background-color: #0A0A0A;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.Btn:active{
+  transform: scale(0.9);
+}
+.length{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.length label{
+  font-size: 1.2rem;
+  color: #212121;
+  font-weight: 700;
+}
+.length input{
+  width: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  color: #0A0A0A;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+#passlength::-webkit-inner-spin-button , 
+#passlength::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 527px) {
+  .passGenerator{
+    background-color: coral;
+    width: 20rem;
+  }
+  .upper , .lower , .number , .symbol{
+    margin-top: 1rem;
+    padding:0  1rem;
+  }
+  .upper label{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .lower label{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .number label{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .symbol label{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .length{
+    padding: 0;
+  }
+  .length label{
+    font-size: 1rem;
+  }
+  .length input{
+    font-size: 1rem;
+  }
+  p{
+    margin-left: 0;
+  }
+  .show-pass .pass{
+    font-size: 1.2rem;
+  }
+
+}
